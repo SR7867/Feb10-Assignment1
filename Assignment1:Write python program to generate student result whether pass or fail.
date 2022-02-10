@@ -1,0 +1,14 @@
+sname
+sname=input('enter name: ')
+sno=int(input('enter number: '))
+sgroup=input('enter group')
+s1=int(input('enter maths marks: '))
+s2=int(input('enter physics marks: '))
+s3=int(input('enter computer marks: '))
+s4=int(input('enter english marks:' ))
+s5=int(input('enter hindi marks:' ))
+s6=int(input('enter crt marks: '))
+if(s1>30 and s2>30 and s3>30 and s4>30 and s5>30 and s6>40):
+    print('pass')
+else:
+    print('fail')
